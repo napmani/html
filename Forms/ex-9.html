@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>login form</title>
+    </head>
+    <body>
+        <form action="">
+            <table style="width: 400px;" align="center">
+                <tr align="center">
+                    <td colspan="2"><h1>Novell Services Login</h1></td>
+                </tr>
+                <tr>
+                    <td style="width: 120px;"><label for="username">Usename : </label></td>
+                    <td><input type="text" id="username" style="width: 280px;"></td>
+                </tr>
+                <tr>
+                    <td><label for="pass">Password:</label></td>
+                    <td><input type="password" id="pass" style="width: 280px;"></td>
+                </tr>
+                <tr>
+                    <td><label for="coe">City of Employment : </label></td>
+                    <td><input type="text" id="coe" style="width: 280px;"></td>
+                </tr>
+                <tr>
+                    <td><label for="ws">Web Server</label></td>
+                    <td><select name="web server" id="ws" style="width: 200px;">
+                        <option value="">-Choose a server-</option>
+                        <option value="">Chrome</option>
+                        <option value="">Safari</option>
+                        <option value="">Fire Fox</option>
+                        <option value="">Jio Sphere</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="">Please specify your role:</label></td>
+                    <td>
+                        <input type="radio" name="role" id="Admin"><label for="Admin">Admin</label><br>
+                        <input type="radio" name="role" id="Engineer"><label for="Engineer">Engineer</label><br>
+                        <input type="radio" id="Manager" name="role"><label for="Manager">Manager</label><br>
+                        <input type="radio" id="Guest" name="role"><label for="Guest">Guest</label><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Single Sign-on to the following</label></td>
+                    <td>
+                        <input type="checkbox" id="mail"><label for="mail">Mail</label><br>
+                        <input type="checkbox" id="Payroll"><label for="Payroll">Payroll</label><br>
+                        <input type="checkbox" id="ss"><label for="ss">Self-service</label>
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td colspan="2"><button style="margin: 5px;">Login</button><input type="reset"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
